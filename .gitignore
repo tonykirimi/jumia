@@ -1,0 +1,4 @@
+.terraform/*
+cred*
+terraform*
+modules/vpc/.terraform/*
