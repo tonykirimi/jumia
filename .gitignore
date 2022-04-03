@@ -4,3 +4,4 @@ terraform*
 modules/vpc/.terraform/*
 
 modules/RDS/.terraform/*
+jumia-challenge-manifests/*
