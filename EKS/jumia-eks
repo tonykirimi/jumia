@@ -1,0 +1,5 @@
+eksctl create cluster --name jumia-devops --tags "Owner=Gitonga,Intent=Demo" --region eu-central-1 --with-oidc  --version 1.21 --nodegroup-name ckad-nodegoup --node-type t3.medium --nodes 3  --enable-ssm --asg-access  --full-ecr-access --appmesh-access --alb-ingress-access --vpc-private-subnets="subnet-0ca465ad1d2cd4d7b,subnet-0690805ea6cf11c9c,subnet-03bf86947347a1d49" --node-private-networking
+
+
+
+

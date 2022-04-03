@@ -2,3 +2,5 @@
 cred*
 terraform*
 modules/vpc/.terraform/*
+
+modules/RDS/.terraform/*

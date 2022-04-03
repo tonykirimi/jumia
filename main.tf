@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  region     = "eu-central-1"
+  region = "eu-central-1"
 
 }
 
@@ -20,3 +20,6 @@ module "jumia-vpc" {
 
 }
 
+module "rds" {
+  source = "/home/tizo/jumia/modules/RDS"
+}
